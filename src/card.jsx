@@ -91,6 +91,7 @@ export default function CardComponant() {
         >
           {/* Card */}
           <div
+            className="card"
             style={{
               background: "rgb(1 68 177 / 36%)",
               color: "white",
@@ -150,6 +151,7 @@ export default function CardComponant() {
               {/* icon */}
               <div>
                 <WbCloudyIcon
+                  className="cloud-icon"
                   style={{ fontSize: "170px", marginLeft: "30px" }}
                 />
               </div>
